@@ -10,7 +10,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 function App() {
   return (
     <BrowserRouter>
-      <div className="min-block-screen flex flex-col flex-1">
+      <div className="min-h-screen flex flex-col flex-1">
         <Navbar />
         <div className="grow flex items-center justify-center px-4">
           <Routes>
